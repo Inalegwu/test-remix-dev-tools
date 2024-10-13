@@ -24,12 +24,12 @@ export default function Component() {
     <Flex
       align="center"
       justify="center"
-      className="w-full h-screen bg-slate-50 flex items-center justify-center"
+      className="w-full h-screen bg-neutral-950 flex items-center justify-center"
     >
       <ValidatedForm
         validator={userValidator}
         method="post"
-        className="w-4/6 h-4/6 rounded-md bg-white"
+        className="w-4/6 h-4/6 rounded-md bg-neutral-800"
       >
         <Flex
           direction="column"

@@ -3,18 +3,22 @@ import type { MetaFunction } from "@remix-run/node";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Blueprint" },
+    { title: "remix-dev-tools" },
     {
       name: "description",
-      content: "The best way to get a remix project started",
+      content: "playing with remix devtools",
     },
   ];
 };
 
 export default function Index() {
   return (
-    <Flex direction="column" className="font-sans bg-zinc-50 w-full h-screen">
-      <Heading>Blueprint</Heading>
+    <Flex
+      align="center"
+      justify="center"
+      className="font-sans bg-neutral-950 text-zinc-100 flex w-full h-screen"
+    >
+      <Heading size="9">Blueprint</Heading>
     </Flex>
   );
 }
